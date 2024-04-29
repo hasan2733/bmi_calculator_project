@@ -8,7 +8,7 @@ def calculate_bmi():
         height_meters = height * 0.0254
         bmi_value = weight / (height_meters ** 2)
 
-        result_var.set(f"Your BMI: {bmi_value:.2f}")+
+        result_var.set(f"Your BMI: {bmi_value:.2f}")
 
         if bmi_value < 18.5:
             category_var.set("You are underweight")
